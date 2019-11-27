@@ -20,7 +20,15 @@ module.exports.routes = {
 
   "/": { view: "pages/homepage" },
 
-  "/posts": "PostsController.posts"
+  // Below routes use convention
+  // Name of the controller file and key value (posts)
+  "/posts": "PostsController.posts",
+  // Additional route contains "slug" which is a parameter added to the URL
+  "GET /post/:postId": "PostsController.findById",
+  // Create new post
+  "POST /post": "PostsController.create",
+  // Delete post
+  "DELETE /post/:postId": "PostsController.delete"
 
   /***************************************************************************
    *                                                                          *
