@@ -72,9 +72,18 @@ module.exports = {
   },
 
   //   Find by ID
-  findById: function(req, res) {
+  findById: async function(req, res) {
     //   An alternative to req.params.postId
     const postId = req.param("postId");
+
+    try {
+      const posts = await Post.find({
+        id: postId
+      });
+      res.send(posts);
+    } catch (err) {
+      res.serverError(err.toString());
+    }
 
     // Filter the posts array by the post id to find a match
     // const filteredPosts = allPosts.filter(element => {

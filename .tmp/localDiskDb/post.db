@@ -1,9 +1,7 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
-{"createdAt":1574845782751,"updatedAt":1574845782751,"id":2,"title":"Regulate","body":"resonate with me","_id":2}
 {"createdAt":1574846024950,"updatedAt":1574846024950,"id":3,"title":"Regulate","body":"resonate with me","_id":3}
 {"createdAt":1574846114350,"updatedAt":1574846114350,"id":4,"title":"Regulate","body":"resonate with me","_id":4}
 {"createdAt":1574846407068,"updatedAt":1574846407068,"id":5,"title":"Symphony","body":"why are you failing?","_id":5}
 {"createdAt":1574846470683,"updatedAt":1574846470683,"id":6,"title":"Breaking","body":"Walls Down","_id":6}
 {"createdAt":1574846552129,"updatedAt":1574846552129,"id":7,"title":"Chris","body":"Jericho","_id":7}
 {"createdAt":1574846825158,"updatedAt":1574846825158,"id":8,"title":"Gestalt","body":"Chrisut","_id":8}
-{"$$deleted":true,"_id":2}
